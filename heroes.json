@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Redgar",
+    "type": "warrior",
+    "maxHp": 150,
+    "power": 20,
+    "special": 50
+  },
+  {
+    "id": 2,
+    "name": "Jaina",
+    "type": "mage",
+    "maxHp": 80,
+    "power": 40,
+    "special": 100
+  },
+  {
+    "id": 3,
+    "name": "Legolas",
+    "type": "archer",
+    "maxHp": 100,
+    "power": 25,
+    "special": 30
+  }
+]

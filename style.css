@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#heroes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+button {
+  margin: 5px 3px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  transition: 0.2s;
+}
+
+button.attack {
+  background: #e74c3c;
+}
+
+button.heal {
+  background: #2ecc71;
+}
+
+button.special {
+  background: #3498db;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.log {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
